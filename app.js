@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const mongoose = require('mongoose');
 
-const url = 'mongodb://localhost:27017/nextproject';
+const url = 'mongodb://localhost:27017/workout-tracker';
 const connect = mongoose.connect(url, {
 	useCreateIndex: true,
 	useFindAndModify: false,
