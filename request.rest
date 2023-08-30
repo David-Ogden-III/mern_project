@@ -13,3 +13,7 @@ GET http://localhost:3000/workouts
 ###
 
 DELETE http://localhost:3000/workouts/64b9c6ed264a894e1075b4ed
+
+###
+
+GET http://localhost:3000/users
